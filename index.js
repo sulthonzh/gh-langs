@@ -78,7 +78,7 @@ function bar(pct, width = 20) {
 }
 
 function formatText(data, opts = {}) {
-  const { total, perRepo, repoCount } = data;
+  const { total, repoCount } = data;
   const sorted = sortLangs(total);
   const totalBytes = sorted.reduce((s, [, b]) => s + b, 0);
   const top = opts.top ? Math.min(opts.top, sorted.length) : sorted.length;
