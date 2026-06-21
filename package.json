@@ -2,9 +2,35 @@
   "name": "gh-langs",
   "version": "1.0.0",
   "description": "See language breakdown across all your GitHub repos from the terminal",
-  "bin": { "gh-langs": "./cli.js" },
-  "scripts": { "test": "node --test test/index.test.mjs" },
-  "keywords": ["github", "languages", "cli", "gh"],
+  "bin": {
+    "gh-langs": "./cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/index.test.mjs"
+  },
+  "keywords": [
+    "github",
+    "languages",
+    "cli",
+    "gh"
+  ],
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/sulthonzh/gh-langs" }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/gh-langs"
+  },
+  "files": [
+    "cli.js",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://github.com/sulthonzh/gh-langs#readme",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/gh-langs/issues"
+  },
+  "author": "sulthonzh"
 }
